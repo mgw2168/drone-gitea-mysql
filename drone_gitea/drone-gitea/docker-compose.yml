@@ -20,7 +20,7 @@ services:
       - DRONE_PROVIDER=git
       - DRONE_SERVER_PROTO=http
       - DRONE_RPC_SECRET=ALQU2M0KdptXUdTPKcEw
-      - DRONE_SERVER_HOST=60.205.205.172
+      - DRONE_SERVER_HOST=xx.xx.xx.xx
       - DRONE_RUNNER_CAPACITY=2
   git:
     image: gitea/gitea:latest
@@ -40,9 +40,9 @@ services:
       - cinet
     container_name: mysql
     environment:
-      MYSQL_ROOT_PASSWORD: "Mgw2168@"
+      MYSQL_ROOT_PASSWORD: "xxx"
       MYSQL_USER: 'root'
-      MYSQL_PASSWORD: 'Mgw2168@'
+      MYSQL_PASSWORD: 'xxx'
       TZ: Asia/Shanghai
     image: "docker.io/mysql:latest"
     restart: always
